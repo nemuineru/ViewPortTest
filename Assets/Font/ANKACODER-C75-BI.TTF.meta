@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: ce5909ef7f58d2246b2c2a1a5bf615bf
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Anka/Coder Narrow
+  fontNames:
+  - Anka/Coder Narrow
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cdbbb191e7c8a3f42b43c62cf9cbb04a, type: 3}
+  - {fileID: 12800000, guid: cdb48c83cf787f043993cd38bcd24bff, type: 3}
+  - {fileID: 12800000, guid: 2f3ff1ab6ec028745b6b5a1f9fab0681, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
