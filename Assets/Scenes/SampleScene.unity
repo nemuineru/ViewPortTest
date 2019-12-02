@@ -118,7 +118,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh6798
+  m_Name: pb_Mesh21854
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -17244,7 +17244,7 @@ GameObject:
   - component: {fileID: 784998642}
   - component: {fileID: 784998641}
   - component: {fileID: 784998640}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: pb-MergedObject-1506202
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22244,7 +22244,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89

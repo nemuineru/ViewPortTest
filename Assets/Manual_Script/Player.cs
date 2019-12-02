@@ -25,13 +25,18 @@ public class Player : MonoBehaviour {
     void Update()
     {
         //Fire and Reload Anims
-        if (Input.GetButtonDown("Fire1")) {
-            ViewModelanimator.SetTrigger("Fire");
-        }
-
-        if (Input.GetButtonDown("Reload"))
+        //if Statename is Hold
+        if (ViewModelanimator.GetCurrentAnimatorStateInfo(1).IsName("Hold"))
         {
-            ViewModelanimator.SetTrigger("Reload");
+            if (Input.GetButtonDown("Fire1"))
+            {
+                ViewModelanimator.SetTrigger("Fire");
+            }
+
+            if (Input.GetButtonDown("Reload"))
+            {
+                ViewModelanimator.SetTrigger("Reload");
+            }
         }
 
 
@@ -50,8 +55,14 @@ public class Player : MonoBehaviour {
             Y_Current_Rotation = Mathf.Clamp(Y_Current_Rotation, -85f, 85f);
             moveVelocity_xz = new Vector3(ViewModel.transform.forward.x, 0f, ViewModel.transform.forward.z).normalized * Input.GetAxis("Vertical") 
                 + new Vector3(ViewModel.transform.right.x, 0, ViewModel.transform.right.z).normalized * Input.GetAxis("Horizontal");
-            rigidbody.velocity = moveVelocity_xz * Speed + new Vector3(0f,rigidbody.velocity.y,0f); //Velocity Activate to Camera Movements
 
+            RaycastHit RayToGround = 
+
+            if () {
+                }
+            else {
+                rigidbody.velocity = moveVelocity_xz * Speed + new Vector3(0f, rigidbody.velocity.y, 0f); //Velocity Activate to Camera Movements
+            }
             if (Input.GetButtonDown("Jump"))
             {
                 rigidbody.velocity = new Vector3(0, -Physics.gravity.y * 0.5f, 0);
